@@ -1,6 +1,6 @@
 file working
-
-app/Http/Controllers/Api/RideStatus.php
+<pre>
+app/Http/Controllers/Api/RideStatus.php 
 app/Http/Controllers/MapDataController.php
 app/Http/Requests/*
 app/Models/MapData.php
@@ -11,3 +11,4 @@ public/js/gmap.js
 resources/views/add-details.blade.php
 routes/api.php
 routes/web.php
+</pre>
