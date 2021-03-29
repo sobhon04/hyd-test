@@ -8,15 +8,12 @@ function initiatlizemap() {
     // Create the search box and link it to the UI element.
     var input = document.getElementById('source');
     var searchBox = new google.maps.places.SearchBox(input);
-    //map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 
     var inputDes = document.getElementById('destination');
     var searchDesBox = new google.maps.places.SearchBox(inputDes);
-    //map.controls[google.maps.ControlPosition.TOP_LEFT].push(inputDes);
 
     var searchIcon = document.getElementById('icon');
     var searchIconBox = new google.maps.places.SearchBox(searchIcon);
-    //map.controls[google.maps.ControlPosition.TOP_LEFT].push(searchIcon);
 
     var stepInfo = document.getElementById('stepInfo');
     var searchIconBox = new google.maps.places.SearchBox(stepInfo);
